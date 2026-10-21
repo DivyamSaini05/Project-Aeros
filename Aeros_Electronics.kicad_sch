@@ -1,0 +1,10542 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ad761f4d-2ce6-596f-92d5-3015702376a5")
+	(paper "A2")
+	(title_block
+		(title "Aeros Scircuit connections schematic")
+		(date "2026-10-19")
+		(rev "B")
+	)
+	(lib_symbols
+		(symbol "Aeros:Battery_6S2P"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 3.81 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_6S2P"
+				(at 3.81 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "6S2P Li-ion 21700 pack"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_6S2P_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 -0.635)
+					)
+					(stroke
+						(width 0.15)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "Battery_6S2P_1_1"
+				(pin power_out line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Buck_12V"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Buck_12V"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Step-down regulator, 6S in, 12 V / 4 A+ out for the wheel gearmotors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Buck_12V_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "BUCK 12V"
+					(at 0 -6.12 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "Buck_12V_1_1"
+				(pin power_in line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.048 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 3.048 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 -0.508)
+					(end 2.032 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "+"
+					(at 1.778 2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.048)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.048)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:ELRS_RX"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ELRS_RX"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ExpressLRS 2.4 GHz receiver, CRSF serial"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ELRS_RX_0_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "ELRS"
+					(at 0 -7.39 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "ELRS_RX_1_1"
+				(pin power_in line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "RX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:ESC_4in1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ESC_4in1"
+				(at -5.08 29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4-in-1 ESC, 6S, 30.5 mm, BLHeli_32/AM32, 8-pin JST-SH harness"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESC_4in1_0_1"
+				(rectangle
+					(start -10.16 27.94)
+					(end 10.16 -30.48)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "4-in-1 ESC"
+					(at 0 -28.98 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "ESC_4in1_1_1"
+				(pin power_in line
+					(at -7.62 30.48 270)
+					(length 2.54)
+					(name "BAT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -33.02 90)
+					(length 2.54)
+					(name "BAT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 25.4 0)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 22.86 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 20.32 0)
+					(length 2.54)
+					(name "CURR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "TLM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 15.24 0)
+					(length 2.54)
+					(name "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(name "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "M3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "M4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 25.4 180)
+					(length 2.54)
+					(name "M1_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 22.86 180)
+					(length 2.54)
+					(name "M1_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 20.32 180)
+					(length 2.54)
+					(name "M1_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(name "M2_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "M2_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "M2_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "M3_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "M3_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "M3_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -20.32 180)
+					(length 2.54)
+					(name "M4_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -22.86 180)
+					(length 2.54)
+					(name "M4_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -25.4 180)
+					(length 2.54)
+					(name "M4_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:ESP32_DevKit_30pin"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 24.13 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESP32_DevKit_30pin"
+				(at 0 21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ESP32-WROOM-32 DevKit, 30-pin (DOIT V1 layout)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESP32_DevKit_30pin_0_1"
+				(rectangle
+					(start -11.43 20.32)
+					(end 11.43 -22.86)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "ESP32"
+					(at 0 -21.36 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "ESP32_DevKit_30pin_1_1"
+				(pin input line
+					(at -13.97 17.78 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 15.24 0)
+					(length 2.54)
+					(name "VP/IO36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 12.7 0)
+					(length 2.54)
+					(name "VN/IO39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 10.16 0)
+					(length 2.54)
+					(name "IO34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 7.62 0)
+					(length 2.54)
+					(name "IO35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "IO32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "IO33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "IO25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "IO26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "IO27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "IO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "IO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -12.7 0)
+					(length 2.54)
+					(name "IO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -17.78 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 13.97 -17.78 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -15.24 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -12.7 180)
+					(length 2.54)
+					(name "IO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -10.16 180)
+					(length 2.54)
+					(name "IO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "IO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "IO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "IO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 0 180)
+					(length 2.54)
+					(name "IO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 2.54 180)
+					(length 2.54)
+					(name "IO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 5.08 180)
+					(length 2.54)
+					(name "IO19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 7.62 180)
+					(length 2.54)
+					(name "IO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 10.16 180)
+					(length 2.54)
+					(name "RX0/IO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 12.7 180)
+					(length 2.54)
+					(name "TX0/IO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 15.24 180)
+					(length 2.54)
+					(name "IO22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 17.78 180)
+					(length 2.54)
+					(name "IO23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Fuse_V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fuse_V"
+				(at 2.032 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_V_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_V_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Matek_H7A3-SLIM"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Matek_H7A3-SLIM"
+				(at 0 30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Matek H7A3-SLIM flight controller, ArduPilot MATEKH7A3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Matek_H7A3-SLIM_0_1"
+				(rectangle
+					(start -15.24 29.21)
+					(end 15.24 -34.29)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "H7A3-SLIM"
+					(at 0 -30.89 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+				(text "ArduPilot"
+					(at 0 -32.79 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "Matek_H7A3-SLIM_1_1"
+				(pin power_in line
+					(at 17.78 26.67 180)
+					(length 2.54)
+					(name "ESC1_VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 24.13 180)
+					(length 2.54)
+					(name "ESC1_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 21.59 180)
+					(length 2.54)
+					(name "ESC1_CURR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 19.05 180)
+					(length 2.54)
+					(name "ESC1_TLM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 16.51 180)
+					(length 2.54)
+					(name "ESC1_S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 13.97 180)
+					(length 2.54)
+					(name "ESC1_S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 11.43 180)
+					(length 2.54)
+					(name "ESC1_S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 8.89 180)
+					(length 2.54)
+					(name "ESC1_S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 -6.35 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -16.51 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 13.97 0)
+					(length 2.54)
+					(name "9V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -17.78 11.43 0)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 8.89 0)
+					(length 2.54)
+					(name "VB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 2.54)
+					(name "CU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 26.67 0)
+					(length 2.54)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 24.13 0)
+					(length 2.54)
+					(name "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 21.59 0)
+					(length 2.54)
+					(name "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 19.05 0)
+					(length 2.54)
+					(name "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 3.81 180)
+					(length 2.54)
+					(name "S9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 1.27 180)
+					(length 2.54)
+					(name "S10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -1.27 180)
+					(length 2.54)
+					(name "S11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 1.27 0)
+					(length 2.54)
+					(name "TX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -1.27 0)
+					(length 2.54)
+					(name "RX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -8.89 180)
+					(length 2.54)
+					(name "TX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "RX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -3.81 0)
+					(length 2.54)
+					(name "TX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -6.35 0)
+					(length 2.54)
+					(name "RX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -8.89 0)
+					(length 2.54)
+					(name "TX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -11.43 0)
+					(length 2.54)
+					(name "RX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -13.97 0)
+					(length 2.54)
+					(name "TX5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -16.51 0)
+					(length 2.54)
+					(name "RX5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -17.78 -19.05 0)
+					(length 2.54)
+					(name "TX6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -21.59 0)
+					(length 2.54)
+					(name "RX6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -24.13 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -26.67 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Motor_BLDC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 7.62 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_BLDC"
+				(at 7.62 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Brushless outrunner motor, 3 phase"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_BLDC_0_1"
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "M"
+					(at 0 0.9 0)
+					(effects
+						(font
+							(size 2.2 2.2)
+							(bold yes)
+						)
+					)
+				)
+				(text "3~"
+					(at 0 -2.2 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Motor_BLDC_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Motor_DC_Gear"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC_Gear"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Brushed DC gearmotor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_DC_Gear_0_1"
+				(circle
+					(center 0 0)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "+"
+					(at -4.8 2.4 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(text "M"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2 2)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "Motor_DC_Gear_1_1"
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:Servo"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SV"
+				(at -7.62 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Servo"
+				(at -7.62 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Hobby servo, 3-wire"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Servo_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.524)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Servo_1_1"
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:TB6612FNG_Carrier"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TB6612FNG_Carrier"
+				(at 0 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TB6612FNG dual H-bridge carrier, VM 4.5-13.5 V, 1.2 A/ch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TB6612FNG_Carrier_0_1"
+				(rectangle
+					(start -7.62 16.51)
+					(end 7.62 -19.05)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "TB6612"
+					(at 0 -17.55 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "TB6612FNG_Carrier_1_1"
+				(pin power_in line
+					(at 10.16 13.97 180)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -11.43 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -13.97 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "PWMA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 13.97 0)
+					(length 2.54)
+					(name "AIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 11.43 0)
+					(length 2.54)
+					(name "AIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "PWMB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "BIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "BIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "AO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "AO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "BO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "BO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Aeros:UBEC_Servo"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UBEC_Servo"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switching UBEC, 6S in, 7.4 V / 10 A+ out for the tilt servos"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "UBEC_Servo_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "UBEC"
+					(at 0 -4.85 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "UBEC_Servo_1_1"
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND1"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND1"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND2"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND2"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND3"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND3"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tells ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_1"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 287 15)
+		(end 575 140)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 200 110 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "23f6bb64-3557-5e88-8543-2e452a3cdc71")
+	)
+	(rectangle
+		(start 140 128)
+		(end 282 188)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 120 50 170 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3cecb975-5153-5da2-b20a-6dae81c4f693")
+	)
+	(rectangle
+		(start 15 15)
+		(end 125 112)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 200 40 40 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "497a3b4c-fd89-5600-bfd2-9a75c3d4981f")
+	)
+	(rectangle
+		(start 300 195)
+		(end 575 370)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 0 130 150 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "801dc2de-3574-5a43-9831-52fe41fde062")
+	)
+	(rectangle
+		(start 15 296)
+		(end 295 370)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 90 90 90 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bf5b9caa-ae42-51a9-a3f4-53da60b15a20")
+	)
+	(rectangle
+		(start 15 116)
+		(end 125 290)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 0 130 90 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d75eab68-5dc9-54f6-afb1-60924427f560")
+	)
+	(rectangle
+		(start 140 15)
+		(end 282 125)
+		(stroke
+			(width 0.5)
+			(type dash)
+			(color 30 90 190 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e6ba413f-c760-5981-8876-7dbddd7c98f4")
+	)
+	(text "Motor 3  FL pod  prop CW"
+		(exclude_from_sim no)
+		(at 388.62 98.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0eeae8cc-1ab4-50f2-9a00-0e81f9b2d92a")
+	)
+	(text "Motor 1  FR pod  prop CCW"
+		(exclude_from_sim no)
+		(at 388.62 67.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "12314816-7d6a-5539-ae23-946cc330ccf5")
+	)
+	(text "1  POWER"
+		(exclude_from_sim no)
+		(at 18 18 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 200 40 40 1)
+			)
+			(justify left top)
+		)
+		(uuid "21fa3437-3cea-50df-a789-4206aff2e3ed")
+	)
+	(text "Motor 2  RL pod  prop CCW"
+		(exclude_from_sim no)
+		(at 388.62 83.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "27d58be1-5900-5c52-beb0-09e1693a6c3c")
+	)
+	(text "5  TILT SERVOS"
+		(exclude_from_sim no)
+		(at 18 119 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 0 130 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "302a130a-efeb-5e2c-9629-b92d02e1cdfb")
+	)
+	(text "4-in-1 ESC and four lift motors (ArduPilot Quad-X order)"
+		(exclude_from_sim no)
+		(at 290 23.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "3ec8303b-e3ff-5804-bfaf-b5af563de888")
+	)
+	(text "6  WHEEL DRIVE"
+		(exclude_from_sim no)
+		(at 303 198 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 0 130 150 1)
+			)
+			(justify left top)
+		)
+		(uuid "4a69df28-0b7d-5c23-b11d-c877b15e4924")
+	)
+	(text "FC pulse commands -> ESP32 -> two TB6612 drivers -> four gearmotors"
+		(exclude_from_sim no)
+		(at 303 203.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "709accfe-2984-5fe4-9b65-e97bed447278")
+	)
+	(text "One DS3235SG per pod, UBEC rail"
+		(exclude_from_sim no)
+		(at 18 124.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "850f84e2-03d3-5601-8639-55ed351b3bd5")
+	)
+	(text "6S pack, main bus, fused servo branch"
+		(exclude_from_sim no)
+		(at 18 23.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "9246644b-2c29-5d6b-bdea-277b9dde5664")
+	)
+	(text "FC outputs\nS1-S4   lift motors, DShot600, via the ESC 8-pin plug\nS5-S8   tilt servos FR, RL, FL, RR, 50 Hz\nS9-S10  left / right wheel command to the ESP32, 50 Hz\nS11     spare.   UART2 = ELRS.   UART3 free for GPS.\n\nWheel drive\nS9/S10 send 1000-2000 us pulses, 1500 = stop. The ESP32 reads\nthem on IO34/IO35 and drives each TB6612 input pair with\n20 kHz PWM: IN1 = forward, IN2 = reverse. STBY, PWMA and PWMB\nare tied to 3.3 V. No pulses for 200 ms -> all IN low, wheels stop."
+		(exclude_from_sim no)
+		(at 19 306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "932a909c-6120-5438-9a63-cfe2fb2cccbd")
+	)
+	(text "3  PROPULSION"
+		(exclude_from_sim no)
+		(at 290 18 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 200 110 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "bb5eb1dc-0418-5f76-9ec9-ada671383a19")
+	)
+	(text "RC control link, CRSF on UART2"
+		(exclude_from_sim no)
+		(at 143 136.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "c41d8e27-de6a-5647-aa7f-3f312be85dea")
+	)
+	(text "4  ELRS LINK"
+		(exclude_from_sim no)
+		(at 143 131 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 120 50 170 1)
+			)
+			(justify left top)
+		)
+		(uuid "c7a7d6a8-250d-5ac6-80ee-31c5e7482529")
+	)
+	(text "2  FLIGHT CONTROLLER"
+		(exclude_from_sim no)
+		(at 143 18 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 30 90 190 1)
+			)
+			(justify left top)
+		)
+		(uuid "e350ebf6-d706-5201-b5a2-8d507878a230")
+	)
+	(text "Motor 4  RR pod  prop CW"
+		(exclude_from_sim no)
+		(at 388.62 113.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "eb30b0a8-7cd8-5e04-b7f5-37d196e4be77")
+	)
+	(text "NOTES"
+		(exclude_from_sim no)
+		(at 18 299 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.5)
+				(bold yes)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "ecfe87e4-6e9e-50a6-b499-1fb18a38b07c")
+	)
+	(text "UBEC set to 7.4 V for the HV (blue)\nDS3235SG, 6.0 V for the 6.8 V-max one."
+		(exclude_from_sim no)
+		(at 20 95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ef1efff2-5cb5-57eb-8c90-7003d92982ca")
+	)
+	(text "21700 cells, 8.4 Ah\n25.2 V full, XT60"
+		(exclude_from_sim no)
+		(at 34.29 66.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f5b5e8fd-f3ee-5310-b151-d92007f7b50f")
+	)
+	(text "Matek H7A3-SLIM running ArduPilot"
+		(exclude_from_sim no)
+		(at 143 23.5 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 90 90 90 1)
+			)
+			(justify left top)
+		)
+		(uuid "f9141648-a031-5d15-ab42-1b45de472062")
+	)
+	(junction
+		(at 382.27 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0263bc41-e5b8-5ed6-9b31-fe1414736275")
+	)
+	(junction
+		(at 391.16 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c33027-2037-56c2-8660-37b3b19e86c2")
+	)
+	(junction
+		(at 495.3 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15d1035d-9608-5711-a0a6-309da25951eb")
+	)
+	(junction
+		(at 111.76 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b1b523e-f104-55d5-b948-0fa80c26d271")
+	)
+	(junction
+		(at 63.5 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d21e675-211d-5402-adb0-b6b2529ba277")
+	)
+	(junction
+		(at 391.16 279.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b6222bf-6d91-51f8-a7de-a8705c4b9044")
+	)
+	(junction
+		(at 505.46 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65e6890c-35b4-56eb-b408-ac488b5c4c84")
+	)
+	(junction
+		(at 111.76 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "728483da-e988-5d54-91a7-2c0e679cdf51")
+	)
+	(junction
+		(at 231.14 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a56ea42d-268c-58f0-8046-f9413b2c496e")
+	)
+	(junction
+		(at 391.16 236.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb050c4-b920-551e-b76a-290695d8694d")
+	)
+	(junction
+		(at 322.58 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b02efdbd-db08-5ed7-8f45-b9a1a82de511")
+	)
+	(junction
+		(at 391.16 281.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b648a2f7-db93-5685-ab50-7d94db63fb00")
+	)
+	(junction
+		(at 111.76 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc28cafd-ef0a-57da-81d8-5c91a020e06f")
+	)
+	(junction
+		(at 297.18 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8ec8ad7-9097-5e34-a2a5-937dd3038be0")
+	)
+	(junction
+		(at 391.16 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1e44d0f-78d6-5539-b49c-85afc1abca53")
+	)
+	(junction
+		(at 391.16 284.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c419c7-77f2-5a3a-9a9c-473ea7c711b6")
+	)
+	(junction
+		(at 111.76 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6243415-1e5e-5d98-84cc-ba9022d22ad2")
+	)
+	(no_connect
+		(at 356.87 256.54)
+		(uuid "026e3e7c-9073-5ba4-8893-b94c29e03004")
+	)
+	(no_connect
+		(at 328.93 233.68)
+		(uuid "1471433a-55b0-5b1c-ab31-2e4be971e352")
+	)
+	(no_connect
+		(at 185.42 110.49)
+		(uuid "149d2dcf-08cb-5799-9465-b12a9427d516")
+	)
+	(no_connect
+		(at 185.42 100.33)
+		(uuid "199e9366-661c-5e9c-8bd9-213d28e20329")
+	)
+	(no_connect
+		(at 328.93 248.92)
+		(uuid "21ea3c7e-d4fc-5d6b-93db-ef10c123e6b5")
+	)
+	(no_connect
+		(at 328.93 254)
+		(uuid "222ddb6b-0613-53e5-9ab9-0f37bccc821a")
+	)
+	(no_connect
+		(at 328.93 231.14)
+		(uuid "275e52ce-2169-5bd9-a19c-4059caa8b2a8")
+	)
+	(no_connect
+		(at 185.42 82.55)
+		(uuid "3092a7b7-bc62-5fe7-aaae-37a7b8bcf899")
+	)
+	(no_connect
+		(at 328.93 256.54)
+		(uuid "3fb1f0d7-4bd9-5813-8f28-e44cba486867")
+	)
+	(no_connect
+		(at 220.98 90.17)
+		(uuid "41b41a72-d015-5dee-835a-a0c1fcfede66")
+	)
+	(no_connect
+		(at 185.42 74.93)
+		(uuid "4f1005a8-b266-5219-b23a-263966b3c96b")
+	)
+	(no_connect
+		(at 185.42 113.03)
+		(uuid "5548ca0f-cdbe-50b8-a255-83142e04eb88")
+	)
+	(no_connect
+		(at 185.42 105.41)
+		(uuid "586d3346-8dcd-5c84-ba6a-4df01fb9badf")
+	)
+	(no_connect
+		(at 185.42 92.71)
+		(uuid "5fb1c5af-5878-58eb-b317-45c058b654d6")
+	)
+	(no_connect
+		(at 185.42 107.95)
+		(uuid "6216ba13-5b75-5065-8648-702503a46648")
+	)
+	(no_connect
+		(at 185.42 90.17)
+		(uuid "6593453d-d330-5d6e-bad8-892e6499b70f")
+	)
+	(no_connect
+		(at 185.42 102.87)
+		(uuid "66774980-19f9-5d0b-8a4e-bfcd482a209c")
+	)
+	(no_connect
+		(at 356.87 233.68)
+		(uuid "70c28dae-efd4-5716-8b97-b172722f8b54")
+	)
+	(no_connect
+		(at 185.42 80.01)
+		(uuid "76f66b6d-1d79-5278-8785-e3717102da13")
+	)
+	(no_connect
+		(at 328.93 243.84)
+		(uuid "7a4bc593-2fe0-5f04-8ae7-aa60a5800369")
+	)
+	(no_connect
+		(at 328.93 241.3)
+		(uuid "845efb56-be8d-5063-8880-e727cf6a55a2")
+	)
+	(no_connect
+		(at 185.42 115.57)
+		(uuid "9647c919-3cbe-5a49-8fd9-211428cf2033")
+	)
+	(no_connect
+		(at 356.87 246.38)
+		(uuid "9751c751-2ffb-548e-949f-62c34c1b3d78")
+	)
+	(no_connect
+		(at 328.93 259.08)
+		(uuid "9e788b14-cd2f-5ec1-9ed9-28660fe059a3")
+	)
+	(no_connect
+		(at 328.93 246.38)
+		(uuid "a0cf4ca7-3c8c-5f58-9498-6d422f232a21")
+	)
+	(no_connect
+		(at 185.42 87.63)
+		(uuid "a4527edb-d617-5f2c-956a-af6274a071e2")
+	)
+	(no_connect
+		(at 185.42 95.25)
+		(uuid "c2c5153d-b441-5510-96c4-14852c52fc6a")
+	)
+	(no_connect
+		(at 356.87 259.08)
+		(uuid "cc06ad82-39c9-5e65-bc20-1b781740805f")
+	)
+	(no_connect
+		(at 185.42 77.47)
+		(uuid "d2b1744e-bb63-5af5-99cd-8eb57f69240c")
+	)
+	(no_connect
+		(at 328.93 251.46)
+		(uuid "d6a7c43f-a2f8-57f8-b9f5-c1fe0b61bdbb")
+	)
+	(no_connect
+		(at 538.48 223.52)
+		(uuid "da60fcb9-7bdc-5057-a6d6-c7ea6d523d02")
+	)
+	(no_connect
+		(at 185.42 97.79)
+		(uuid "da9e4bbc-e5bb-5a0f-958a-829bd765da83")
+	)
+	(no_connect
+		(at 328.93 228.6)
+		(uuid "f732849b-3ea7-5b10-b67f-c6baf45c5119")
+	)
+	(no_connect
+		(at 356.87 236.22)
+		(uuid "f77229e6-e3fd-5941-9052-6e6140b2ba8d")
+	)
+	(wire
+		(pts
+			(xy 356.87 231.14) (xy 361.95 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ade82d-e70e-556e-8120-b33121b603f1")
+	)
+	(wire
+		(pts
+			(xy 548.64 213.36) (xy 548.64 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f716b3-b14c-5006-aa40-eae559216345")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 30.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045c99e7-15f0-5f02-937f-144b3973bbc2")
+	)
+	(wire
+		(pts
+			(xy 369.57 274.32) (xy 393.7 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f4b14c-9c33-5610-bb13-236abb060024")
+	)
+	(wire
+		(pts
+			(xy 391.16 279.4) (xy 391.16 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f76f3ba-f2fb-59b5-8b19-4ad2beb69d22")
+	)
+	(wire
+		(pts
+			(xy 391.16 281.94) (xy 393.7 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff77264-73b3-516a-a161-3a641de8514a")
+	)
+	(wire
+		(pts
+			(xy 369.57 254) (xy 369.57 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110c04fc-c5f5-5be0-b59d-3091e37ce024")
+	)
+	(wire
+		(pts
+			(xy 382.27 264.16) (xy 382.27 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1120d5ea-596d-5481-a8a3-e09795108130")
+	)
+	(wire
+		(pts
+			(xy 359.41 228.6) (xy 359.41 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d53cea-cc05-508f-bc91-c380d91a83eb")
+	)
+	(wire
+		(pts
+			(xy 391.16 287.02) (xy 393.7 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f65213-1e86-5fdc-8898-9bd264a6166d")
+	)
+	(wire
+		(pts
+			(xy 414.02 238.76) (xy 430.53 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15fc38fa-9f6c-5147-962b-677b42d7322a")
+	)
+	(wire
+		(pts
+			(xy 220.98 74.93) (xy 317.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162106a9-8093-5db9-b968-5e37ed38d314")
+	)
+	(wire
+		(pts
+			(xy 548.64 220.98) (xy 543.56 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1759b2d5-a7b7-566b-a8cd-fa6b519ce097")
+	)
+	(wire
+		(pts
+			(xy 137.16 238.76) (xy 58.42 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a903295-d566-537d-8967-0f4bf10ba7b4")
+	)
+	(wire
+		(pts
+			(xy 322.58 38.1) (xy 322.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aecfdd4-b91e-50d7-979e-795909a82c57")
+	)
+	(wire
+		(pts
+			(xy 356.87 248.92) (xy 374.65 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea8f0be-9e5e-5cd6-b1d5-bfe04bf3cd50")
+	)
+	(wire
+		(pts
+			(xy 356.87 228.6) (xy 359.41 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "228985e4-5f26-5cf4-a004-534e81563f0e")
+	)
+	(wire
+		(pts
+			(xy 220.98 62.23) (xy 317.5 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29324b8c-ec24-5f1d-9308-218ac8ac32e0")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 297.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a59695e-dc18-5550-ae33-4b50d25ca455")
+	)
+	(wire
+		(pts
+			(xy 372.11 251.46) (xy 372.11 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0c9c7e-dbff-592d-8376-4fa0497ed336")
+	)
+	(wire
+		(pts
+			(xy 185.42 62.23) (xy 129.54 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9c896a-3f10-528c-9592-8f3c0e15273a")
+	)
+	(wire
+		(pts
+			(xy 505.46 220.98) (xy 505.46 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da65a0c-4cc7-5ef3-a0f1-40b899872fa2")
+	)
+	(wire
+		(pts
+			(xy 220.98 64.77) (xy 317.5 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e045bd7-91a1-5cb5-8a05-9621cd0821c3")
+	)
+	(wire
+		(pts
+			(xy 342.9 64.77) (xy 373.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346d4470-1ae0-597f-9ae9-b7b269549916")
+	)
+	(wire
+		(pts
+			(xy 364.49 226.06) (xy 393.7 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e659aa-266c-5f6b-a685-9c2f749976e8")
+	)
+	(wire
+		(pts
+			(xy 111.76 208.28) (xy 111.76 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bb8cfc-4f62-593b-a907-f5d7f7f7e1d9")
+	)
+	(wire
+		(pts
+			(xy 228.6 140.97) (xy 212.09 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d3c5ff-7072-53ef-ae53-07c1503820ab")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d5b600-5ff4-565e-9eb6-29c3432a479b")
+	)
+	(wire
+		(pts
+			(xy 374.65 269.24) (xy 393.7 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa90b62-f6f3-52a7-8781-1e037378bbb9")
+	)
+	(wire
+		(pts
+			(xy 342.9 92.71) (xy 373.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc3f2e7-6009-59d7-a769-fffe162271d1")
+	)
+	(wire
+		(pts
+			(xy 342.9 62.23) (xy 373.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9b1eb2-9a54-5231-b7bd-20cdd5abf980")
+	)
+	(wire
+		(pts
+			(xy 356.87 238.76) (xy 364.49 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41636ae1-c590-5632-9622-2b4793bbe464")
+	)
+	(wire
+		(pts
+			(xy 414.02 228.6) (xy 430.53 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438b8cec-1fe7-5397-8f58-b96b454ec045")
+	)
+	(wire
+		(pts
+			(xy 495.3 220.98) (xy 495.3 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47fe2e73-794b-5034-8f96-6478c0a75b62")
+	)
+	(wire
+		(pts
+			(xy 342.9 110.49) (xy 373.38 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4882ff8a-9710-5430-b851-b938cc151c76")
+	)
+	(wire
+		(pts
+			(xy 220.98 69.85) (xy 317.5 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a11ba14-c0d6-5f26-b5a7-aa2776f34db5")
+	)
+	(wire
+		(pts
+			(xy 414.02 287.02) (xy 430.53 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a95487b-8e08-5768-8e2e-1789d14b9b86")
+	)
+	(wire
+		(pts
+			(xy 231.14 143.51) (xy 231.14 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d96f710-547a-5b25-9f55-ef4e6cb1e1d8")
+	)
+	(wire
+		(pts
+			(xy 391.16 279.4) (xy 393.7 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534c4d0c-61ea-597a-8c86-be8c1c18c538")
+	)
+	(wire
+		(pts
+			(xy 228.6 97.79) (xy 228.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56dffe78-25a6-55c7-9955-86f5dcf166a9")
+	)
+	(wire
+		(pts
+			(xy 106.68 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57218ea4-fb1f-589b-8c45-fb7fa3352ee9")
+	)
+	(wire
+		(pts
+			(xy 342.9 82.55) (xy 373.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58451be9-1d31-5eec-b213-17f232730fd9")
+	)
+	(wire
+		(pts
+			(xy 111.76 241.3) (xy 58.42 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab6fe63-e60d-514a-9b20-ee5551ec95b0")
+	)
+	(wire
+		(pts
+			(xy 364.49 238.76) (xy 364.49 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b049cbf-4554-5cce-a698-73a865fe7377")
+	)
+	(wire
+		(pts
+			(xy 356.87 243.84) (xy 377.19 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baf9ce0-c89b-57e1-aec1-2a8b28d697a4")
+	)
+	(wire
+		(pts
+			(xy 356.87 251.46) (xy 372.11 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d08b52f-08f4-58fb-a265-da72bbdbb028")
+	)
+	(wire
+		(pts
+			(xy 134.62 67.31) (xy 134.62 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faaa878-cf75-55ff-a647-5455655858bd")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 81.28 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637dfa8e-38b0-5db8-a9e4-e166a865785c")
+	)
+	(wire
+		(pts
+			(xy 377.19 266.7) (xy 393.7 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644db21d-a158-5e5f-899a-d1facb47fcd6")
+	)
+	(wire
+		(pts
+			(xy 361.95 231.14) (xy 361.95 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66332e03-149e-5e60-851b-96b0acc53610")
+	)
+	(wire
+		(pts
+			(xy 342.9 107.95) (xy 373.38 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684f238e-7dcc-575b-abc4-5524910b72a6")
+	)
+	(wire
+		(pts
+			(xy 111.76 241.3) (xy 111.76 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6865ed7b-3c7b-5ad9-8363-71daf15aa583")
+	)
+	(wire
+		(pts
+			(xy 391.16 238.76) (xy 391.16 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a94b09-090a-5e16-a14c-bcfeee686f67")
+	)
+	(wire
+		(pts
+			(xy 132.08 64.77) (xy 132.08 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f86992e-fd3c-5c21-a350-a4b991991ad2")
+	)
+	(wire
+		(pts
+			(xy 111.76 142.24) (xy 58.42 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a9670c-41db-5d1e-a52a-d3316d291f3a")
+	)
+	(wire
+		(pts
+			(xy 111.76 142.24) (xy 111.76 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72152042-79e1-5d47-bc59-ab8dd63c2841")
+	)
+	(wire
+		(pts
+			(xy 391.16 233.68) (xy 393.7 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72bde96b-4c72-5a27-808f-1f58311ef251")
+	)
+	(wire
+		(pts
+			(xy 236.22 238.76) (xy 328.93 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7445a596-6217-5f46-abc2-42c3fee0e13e")
+	)
+	(wire
+		(pts
+			(xy 359.41 220.98) (xy 393.7 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d845b6-65d4-59ad-a00a-e32dc68b542e")
+	)
+	(wire
+		(pts
+			(xy 382.27 279.4) (xy 391.16 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b441066-9a2f-5286-ac79-7adc9ddd2d9a")
+	)
+	(wire
+		(pts
+			(xy 185.42 64.77) (xy 132.08 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eda36a3-0537-5cbc-b343-32565a44fd8b")
+	)
+	(wire
+		(pts
+			(xy 322.58 38.1) (xy 548.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809cfaa8-947d-5576-9b5a-3d3c4e593572")
+	)
+	(wire
+		(pts
+			(xy 185.42 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82fd6abf-54eb-564f-8817-aa30e67fc390")
+	)
+	(wire
+		(pts
+			(xy 382.27 233.68) (xy 382.27 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85614100-8fd7-5091-8c80-c27cf4c10739")
+	)
+	(wire
+		(pts
+			(xy 414.02 292.1) (xy 414.02 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8663f006-d754-5db9-a0f2-bf493fe8d837")
+	)
+	(wire
+		(pts
+			(xy 356.87 241.3) (xy 367.03 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868c09ae-631f-5166-bbb0-f85f5a7feead")
+	)
+	(wire
+		(pts
+			(xy 356.87 264.16) (xy 382.27 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8706fa06-e8a6-50a4-b433-20ccf1aefbdb")
+	)
+	(wire
+		(pts
+			(xy 414.02 276.86) (xy 430.53 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877605d9-da24-57b4-aaf5-dc4d81cba2ee")
+	)
+	(wire
+		(pts
+			(xy 518.16 220.98) (xy 505.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8aee37-6bf3-5669-a976-95c0df0034c1")
+	)
+	(wire
+		(pts
+			(xy 111.76 208.28) (xy 58.42 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bdc1164-46b6-5abb-8e2f-fbd3ab9f9b1d")
+	)
+	(wire
+		(pts
+			(xy 226.06 138.43) (xy 212.09 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be24152-1cff-5750-886b-16bfb2e76fcf")
+	)
+	(wire
+		(pts
+			(xy 111.76 175.26) (xy 111.76 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f882a82-1801-5525-a76f-09cf514b2213")
+	)
+	(wire
+		(pts
+			(xy 220.98 80.01) (xy 317.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e67d7d-4002-5cb6-a7ee-8143f60e7954")
+	)
+	(wire
+		(pts
+			(xy 231.14 143.51) (xy 212.09 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9200b3aa-3bbd-51c1-8e58-4388c627f2f7")
+	)
+	(wire
+		(pts
+			(xy 414.02 241.3) (xy 430.53 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9393c64b-0ecb-5b5d-a435-3fbf6c52d12b")
+	)
+	(wire
+		(pts
+			(xy 391.16 236.22) (xy 391.16 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e5d52c-93d2-54ba-9913-50918c285295")
+	)
+	(wire
+		(pts
+			(xy 30.48 38.1) (xy 63.5 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2ecaf6-a094-5890-a7cc-d43dd6ba747e")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 111.76 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a80715b-1290-5be0-92b5-c51fa17799a0")
+	)
+	(wire
+		(pts
+			(xy 236.22 87.63) (xy 236.22 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1b4961-9bec-516c-ad2a-fdc93fc3cbad")
+	)
+	(wire
+		(pts
+			(xy 111.76 175.26) (xy 58.42 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13d176f-e8c2-5304-b916-c12c48a09c59")
+	)
+	(wire
+		(pts
+			(xy 505.46 220.98) (xy 495.3 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c0e67b-4649-5c4e-9f07-28bd43d16805")
+	)
+	(wire
+		(pts
+			(xy 63.5 38.1) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e1d9fe-ec62-5c19-a36c-96ec773d4487")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e8404f-4248-5d2b-a6fb-f8fdc7e75f51")
+	)
+	(wire
+		(pts
+			(xy 391.16 241.3) (xy 393.7 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a702370f-5fbb-58eb-9d6e-1686fe422895")
+	)
+	(wire
+		(pts
+			(xy 548.64 38.1) (xy 548.64 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b5a6a5-4980-5e6a-8fd5-56f95d1ba2a0")
+	)
+	(wire
+		(pts
+			(xy 220.98 95.25) (xy 231.14 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3ab307-50dd-59d3-95ee-9e53ffc39865")
+	)
+	(wire
+		(pts
+			(xy 132.08 172.72) (xy 58.42 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe6d551-74fa-5e71-8930-f475e9b4ef4c")
+	)
+	(wire
+		(pts
+			(xy 238.76 85.09) (xy 238.76 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2198d57-5dc3-5154-bb79-246c9eac1723")
+	)
+	(wire
+		(pts
+			(xy 495.3 220.98) (xy 414.02 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64eb3f3-bf43-5045-b143-f4400cf48950")
+	)
+	(wire
+		(pts
+			(xy 297.18 38.1) (xy 322.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69f112f-d791-5bc2-bde0-fb85382e62d1")
+	)
+	(wire
+		(pts
+			(xy 220.98 100.33) (xy 226.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84f71c9-7fc6-5de4-84bd-8137e7b3fa5b")
+	)
+	(wire
+		(pts
+			(xy 391.16 236.22) (xy 393.7 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b2974d-bfe7-557d-aa91-e1339ef0e4ea")
+	)
+	(wire
+		(pts
+			(xy 377.19 243.84) (xy 377.19 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9eebf70-a76b-5d75-a1cf-cb9060a950c3")
+	)
+	(wire
+		(pts
+			(xy 342.9 80.01) (xy 373.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacaa375-da50-56b8-bca1-4ca1c2602f76")
+	)
+	(wire
+		(pts
+			(xy 220.98 67.31) (xy 317.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc667465-c671-57c0-8817-f06847618646")
+	)
+	(wire
+		(pts
+			(xy 342.9 77.47) (xy 373.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd070c52-e3cf-5ef9-b1fa-29a365079c03")
+	)
+	(wire
+		(pts
+			(xy 220.98 72.39) (xy 317.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd7c7460-12f3-5b36-84d9-025742116934")
+	)
+	(wire
+		(pts
+			(xy 391.16 284.48) (xy 391.16 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12750ec-10cd-548e-a879-e9d3a07327a9")
+	)
+	(wire
+		(pts
+			(xy 391.16 284.48) (xy 393.7 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d25b8c-fe8b-58dd-ab08-66e5965465a3")
+	)
+	(wire
+		(pts
+			(xy 81.28 76.2) (xy 86.36 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c544b9d0-052d-5e61-9b9b-85e3d8e6a741")
+	)
+	(wire
+		(pts
+			(xy 543.56 220.98) (xy 538.48 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a10cd4-1042-5b31-bdd8-2f96f15ff106")
+	)
+	(wire
+		(pts
+			(xy 391.16 233.68) (xy 391.16 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c681d900-aac7-554b-9856-1ab3899af602")
+	)
+	(wire
+		(pts
+			(xy 372.11 271.78) (xy 393.7 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c879471c-0a60-50a2-9e28-0b28a163d734")
+	)
+	(wire
+		(pts
+			(xy 414.02 246.38) (xy 414.02 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb816bed-6ca8-5a8c-8282-b2a1d971b4f6")
+	)
+	(wire
+		(pts
+			(xy 356.87 254) (xy 369.57 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb1e958-d568-5044-9580-fd8f14f87a4a")
+	)
+	(wire
+		(pts
+			(xy 137.16 69.85) (xy 137.16 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22a0ead-bc2c-576d-859c-2cecfadd500a")
+	)
+	(wire
+		(pts
+			(xy 361.95 223.52) (xy 393.7 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4daa068-0c85-576c-999b-821d46641149")
+	)
+	(wire
+		(pts
+			(xy 367.03 241.3) (xy 367.03 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d605a393-2053-5abc-b16e-ed53c9907acd")
+	)
+	(wire
+		(pts
+			(xy 367.03 228.6) (xy 393.7 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76adcec-5ac4-5024-9587-ee143af2d752")
+	)
+	(wire
+		(pts
+			(xy 342.9 67.31) (xy 373.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8aa11a4-c2e6-5cfa-a39d-2e256c3551e2")
+	)
+	(wire
+		(pts
+			(xy 129.54 139.7) (xy 58.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabffc6e-67a4-569d-80a5-1e670d17b232")
+	)
+	(wire
+		(pts
+			(xy 391.16 281.94) (xy 391.16 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3e0563-464a-58b5-a3dc-563792d6368e")
+	)
+	(wire
+		(pts
+			(xy 220.98 97.79) (xy 228.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc827296-43bf-5764-ba7c-859c7225eb41")
+	)
+	(wire
+		(pts
+			(xy 129.54 62.23) (xy 129.54 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd2ffac9-d954-5ac6-9f09-64eaaabbe8f8")
+	)
+	(wire
+		(pts
+			(xy 495.3 266.7) (xy 414.02 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfdef6f-4b46-59d2-8fca-f8c488fe789a")
+	)
+	(wire
+		(pts
+			(xy 382.27 233.68) (xy 391.16 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "def0f453-8b76-5bd1-a45d-c644b2b8c3f3")
+	)
+	(wire
+		(pts
+			(xy 238.76 236.22) (xy 328.93 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e11d2a69-d1cf-538a-8b11-97d17b81a529")
+	)
+	(wire
+		(pts
+			(xy 414.02 274.32) (xy 430.53 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5aca17f-926d-556e-b6d6-51b8fffa8c2f")
+	)
+	(wire
+		(pts
+			(xy 374.65 248.92) (xy 374.65 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60da0fd-a53f-56ad-955e-08b681ab475d")
+	)
+	(wire
+		(pts
+			(xy 134.62 205.74) (xy 58.42 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec930e96-c7f9-52ec-87ed-d8bae1bb2e78")
+	)
+	(wire
+		(pts
+			(xy 220.98 87.63) (xy 236.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9ba72b-db55-5cf4-a021-ab5028ac8d29")
+	)
+	(wire
+		(pts
+			(xy 342.9 113.03) (xy 373.38 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed66ae66-9893-52ce-8dfd-95b41c130c92")
+	)
+	(wire
+		(pts
+			(xy 226.06 100.33) (xy 226.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef105a59-4799-55a9-bf01-51e522a7d2b8")
+	)
+	(wire
+		(pts
+			(xy 414.02 231.14) (xy 430.53 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f270c410-7ed3-54b5-9ab1-fa1c966f18d0")
+	)
+	(wire
+		(pts
+			(xy 342.9 95.25) (xy 373.38 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f301ec11-5c8f-5a37-b615-eacd73731eb7")
+	)
+	(wire
+		(pts
+			(xy 231.14 95.25) (xy 231.14 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31d0f7d-c84f-5029-bd0d-fb618ab9798e")
+	)
+	(wire
+		(pts
+			(xy 297.18 38.1) (xy 297.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3889975-a5dd-5686-949d-16ece6db967c")
+	)
+	(wire
+		(pts
+			(xy 414.02 284.48) (xy 430.53 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a763c1-618a-5095-9864-356e2e724994")
+	)
+	(wire
+		(pts
+			(xy 391.16 238.76) (xy 393.7 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6988f1f-8ceb-5934-aff0-9b43a1cd7827")
+	)
+	(wire
+		(pts
+			(xy 220.98 85.09) (xy 238.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb192aeb-24d4-5099-bfb4-81ddba125fbd")
+	)
+	(wire
+		(pts
+			(xy 231.14 264.16) (xy 328.93 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc74ca5b-1093-580b-ba26-f0b79836a062")
+	)
+	(wire
+		(pts
+			(xy 342.9 97.79) (xy 373.38 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd452437-a4e2-5cd6-b585-58c6dc29248f")
+	)
+	(wire
+		(pts
+			(xy 220.98 77.47) (xy 317.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9b47be-c40d-5264-9d8c-a4b9955335fc")
+	)
+	(label "CRSF_RX"
+		(at 212.09 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d711434-5880-5b17-a261-ae4eb39e0507")
+	)
+	(label "RR_IN1"
+		(at 393.7 271.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33e47bb9-a1ea-58e6-9642-f103fc5a27c1")
+	)
+	(label "SERVO_FL"
+		(at 185.42 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "346b0762-c528-5c57-a28e-67d0c9ea6744")
+	)
+	(label "FR_IN1"
+		(at 393.7 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35f0bb3b-c74e-53b0-88bf-137b6268d79f")
+	)
+	(label "ESC_M1"
+		(at 220.98 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4205d6f8-c5f0-59a2-9ca5-fcde81b7cacf")
+	)
+	(label "+7V4_SERVO"
+		(at 111.76 88.9 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4510a398-b387-5e4d-aebd-32fc2eabc41a")
+	)
+	(label "SERVO_RR"
+		(at 185.42 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54d2423f-8fbf-5439-b631-544740b417e4")
+	)
+	(label "+12V_DRIVE"
+		(at 414.02 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "571e8992-c0f0-5b62-83d4-4eae77be5984")
+	)
+	(label "ESC_M2"
+		(at 220.98 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57376aee-f60a-53d6-9796-73e6e8d0a95d")
+	)
+	(label "VBAT"
+		(at 30.48 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "578e7d14-cc43-5d8f-b522-0a8658217dce")
+	)
+	(label "FR_IN2"
+		(at 393.7 269.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a599951-7fa3-5b28-b0da-5ca623b337ff")
+	)
+	(label "ESC_CURR"
+		(at 220.98 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5afe7202-f173-5c4b-9c4c-4398e9ba1cc2")
+	)
+	(label "RL_IN1"
+		(at 393.7 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d969639-6358-521b-ab90-74287359e459")
+	)
+	(label "ESC_M4"
+		(at 220.98 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f0b29d9-6ba6-536f-a508-f052d2255a6d")
+	)
+	(label "ESC_VBAT"
+		(at 220.98 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698fd3a8-ab99-5eae-a009-de7ad4274159")
+	)
+	(label "SERVO_RL"
+		(at 185.42 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6be791c8-5c68-5d72-9686-c7b38b5b77a5")
+	)
+	(label "+3V3_DRV"
+		(at 356.87 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77b7fe0c-1621-54eb-84bc-c82f272479df")
+	)
+	(label "FL_IN2"
+		(at 393.7 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97bb740f-b2e7-5a6d-bfea-84d9a9b30935")
+	)
+	(label "ESC_M3"
+		(at 220.98 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a964c043-3902-5f4a-b62d-df58468a1f08")
+	)
+	(label "RL_IN2"
+		(at 393.7 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa07d94b-a24b-5757-ba3e-85013c957815")
+	)
+	(label "SERVO_FR"
+		(at 185.42 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0169dda-0ab5-5833-8ba6-02a8acf154f5")
+	)
+	(label "FL_IN1"
+		(at 393.7 220.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b026fb5a-e07e-5860-8981-d031a3a707f6")
+	)
+	(label "+5V_FC"
+		(at 220.98 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb1e1b9f-f7c3-5764-81be-a56964342dc7")
+	)
+	(label "CRSF_TX"
+		(at 212.09 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1687f4b-25b3-53fa-bd58-4805e7620b88")
+	)
+	(label "ESC_TLM"
+		(at 220.98 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d45851c2-2908-593d-b46a-bac7daa7c266")
+	)
+	(label "RR_IN2"
+		(at 393.7 274.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d48be912-e3d9-5624-b3a9-853618ba6031")
+	)
+	(label "GND"
+		(at 220.98 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfda2eff-9828-5e1e-a4ce-9515b9342dc2")
+	)
+	(label "DRIVE_L_CMD"
+		(at 238.76 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4672bd6-5a76-5f49-9d72-5319e417bac1")
+	)
+	(label "DRIVE_R_CMD"
+		(at 236.22 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6a864d8-fea7-5945-9a3e-43e3298929e9")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 243.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03eb381b-99a5-5e9a-92ae-5350a067e876")
+		(property "Reference" "#PWR09"
+			(at 58.42 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 247.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 243.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "910c8790-4929-5f67-8648-2d4ab5e1035b")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 543.56 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0720578b-28a7-5db7-8af9-f9da23008d2b")
+		(property "Reference" "#FLG02"
+			(at 543.56 219.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 549.16 219.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 543.56 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 543.56 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 543.56 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d28b45e-b034-5ab9-b565-de5a3ddab969")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_BLDC")
+		(at 381 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0c95edef-9a12-5603-9f49-382fcca52233")
+		(property "Reference" "M3"
+			(at 388.62 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMAX ECO III 2807 1300KV"
+			(at 388.62 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dde8e3d4-80f6-5729-bdab-6a8c1bc74032")
+		)
+		(pin "2"
+			(uuid "9aeae024-a960-53c8-a836-db701077369f")
+		)
+		(pin "3"
+			(uuid "8ba8f854-7fbb-55fe-8894-338f9afffe37")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Servo")
+		(at 50.8 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14406061-1f6a-5823-8664-73a92d6cba7c")
+		(property "Reference" "SV1"
+			(at 43.18 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DS3235SG  FR"
+			(at 43.18 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16ab4883-5aed-56d3-9bad-f506b4b42b1c")
+		)
+		(pin "2"
+			(uuid "2d4d0a0b-ed45-5a8c-9490-e2a575e3782a")
+		)
+		(pin "3"
+			(uuid "ad77efd5-e718-5905-affd-357b9f279cfc")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "SV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:ESP32_DevKit_30pin")
+		(at 342.9 246.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1899a8a1-5efe-5ae5-93b6-f3d613d15a7b")
+		(property "Reference" "U6"
+			(at 342.9 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32 DevKit 30-pin"
+			(at 342.9 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b785a47b-9963-551c-bc7b-6ad369d1b83e")
+		)
+		(pin "2"
+			(uuid "b6514e0f-da46-5740-b920-5654942f16c5")
+		)
+		(pin "3"
+			(uuid "b05cce70-0e70-5dde-aff4-0a84acfb828e")
+		)
+		(pin "4"
+			(uuid "e2491d79-9215-5650-ba2f-c12d7338b03b")
+		)
+		(pin "5"
+			(uuid "a07379c7-dd0c-5454-86fe-cb578631c0d9")
+		)
+		(pin "6"
+			(uuid "fb8a4b4c-2ae8-573d-a98b-12fefebdf7b1")
+		)
+		(pin "7"
+			(uuid "8a332409-2065-5d13-8860-d4a04fd103b0")
+		)
+		(pin "8"
+			(uuid "6167fed3-7442-57a5-9329-9d53113f5609")
+		)
+		(pin "9"
+			(uuid "7c7aa88d-d7ab-5d62-9d9e-0882e91cc78d")
+		)
+		(pin "10"
+			(uuid "7d883615-4478-5c65-a257-f9d563289bcb")
+		)
+		(pin "11"
+			(uuid "70027dc2-f7ca-5c81-a35e-f4233fac2862")
+		)
+		(pin "12"
+			(uuid "3e0cb3cb-d346-5404-80ac-e8a0738bb495")
+		)
+		(pin "13"
+			(uuid "2d44dd79-3d0b-56f9-9b18-e0500c328731")
+		)
+		(pin "14"
+			(uuid "34531bb0-30a6-5f88-a402-070793ca4e65")
+		)
+		(pin "15"
+			(uuid "5b23c8b4-af90-5c65-81b9-75eb5b017a48")
+		)
+		(pin "30"
+			(uuid "61899ff8-60e9-5078-8d96-5600d6c6763d")
+		)
+		(pin "29"
+			(uuid "7e7000c1-0eba-547d-8a02-9e6a578d550b")
+		)
+		(pin "28"
+			(uuid "3999e724-d4b3-58dc-b0bc-e2426922566e")
+		)
+		(pin "27"
+			(uuid "664a1ecc-c66d-572b-b4f9-6d6656eebad0")
+		)
+		(pin "26"
+			(uuid "116418f2-c5a4-5f01-99aa-35c00a14d96b")
+		)
+		(pin "25"
+			(uuid "1a933578-10f2-5475-a7c1-4741bce80e7c")
+		)
+		(pin "24"
+			(uuid "195acbfc-6750-5b57-b885-593eb2f89bf6")
+		)
+		(pin "23"
+			(uuid "46d156f6-7e5d-5e40-8583-eb8f8ebc6360")
+		)
+		(pin "22"
+			(uuid "f04c62db-f672-59f6-94ac-f1913efc4c9f")
+		)
+		(pin "21"
+			(uuid "3429003c-7214-5281-ae6f-228193490894")
+		)
+		(pin "20"
+			(uuid "23011de5-eed0-50d6-bf6e-9b37d172f173")
+		)
+		(pin "19"
+			(uuid "d7a7575d-9e6f-5083-90ed-458ddcb60da2")
+		)
+		(pin "18"
+			(uuid "4403ce3f-ad8c-5f9f-a12a-7eae5146ed7b")
+		)
+		(pin "17"
+			(uuid "54b8ef98-4c17-5937-923e-87964509d81a")
+		)
+		(pin "16"
+			(uuid "b746e25c-c433-5847-b493-282c3bebcaab")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:ELRS_RX")
+		(at 203.2 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1a905879-93a7-5201-bd23-79dc1f5bfd7b")
+		(property "Reference" "U4"
+			(at 203.2 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ELRS 2.4 GHz RX (CRSF)"
+			(at 203.2 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "673d2528-6f0e-5d5e-81eb-4b29451ee8c2")
+		)
+		(pin "4"
+			(uuid "46db1e21-ddc2-5da9-8c5f-80c009da19d3")
+		)
+		(pin "1"
+			(uuid "de748723-2c4e-58d2-901e-e62141d91e72")
+		)
+		(pin "2"
+			(uuid "6fe9376d-6009-5bde-8429-1b7a60405eb0")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Matek_H7A3-SLIM")
+		(at 203.2 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e5d3b9a-b854-5d86-bd40-f1fd85b67b6d")
+		(property "Reference" "U1"
+			(at 203.2 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Matek H7A3-SLIM"
+			(at 203.2 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "c68f074d-dee5-5493-bfb8-7e2c2a71061e")
+		)
+		(pin "16"
+			(uuid "d7f007b0-48e2-58d1-bea6-3a2de466d4c0")
+		)
+		(pin "17"
+			(uuid "ecaa2c6a-ebb0-5fe0-a2b0-71f032e69eb2")
+		)
+		(pin "18"
+			(uuid "3576c12d-5d68-5681-8b14-ce23706970a7")
+		)
+		(pin "11"
+			(uuid "832343fc-1d5d-553a-b5d3-a866fbf0d2af")
+		)
+		(pin "12"
+			(uuid "322758f5-e141-53c8-a1b4-a16431a60e7c")
+		)
+		(pin "13"
+			(uuid "aa677fc7-62f8-531b-8e14-1c74b7203c4b")
+		)
+		(pin "14"
+			(uuid "3911d8ee-295e-5257-859d-164820ef00d8")
+		)
+		(pin "22"
+			(uuid "b4def4a1-f80c-5003-be56-c30f980d450a")
+		)
+		(pin "23"
+			(uuid "9cc5f7b8-97e0-5cff-80c9-f8d0338ea2e9")
+		)
+		(pin "26"
+			(uuid "c1c75856-fdec-5919-a4d2-b11a1c9e87e6")
+		)
+		(pin "27"
+			(uuid "7fd07bcb-12d0-58bc-9cf6-503c6a321cef")
+		)
+		(pin "28"
+			(uuid "913fd97b-917c-5ca9-a737-6fc572aef42b")
+		)
+		(pin "29"
+			(uuid "52d3ec14-d040-510e-b5ef-bf72d861a6dc")
+		)
+		(pin "30"
+			(uuid "ea5e5099-d63e-5211-8f67-39c8b10b3f4f")
+		)
+		(pin "31"
+			(uuid "8dd856c8-22fc-5c39-8f2b-cbc4df1178c0")
+		)
+		(pin "32"
+			(uuid "a18cb127-dd11-539f-a2c0-bdc0a4f117a2")
+		)
+		(pin "33"
+			(uuid "93c24f29-02c1-5335-af27-edb6d2a744f4")
+		)
+		(pin "34"
+			(uuid "b340ae6d-c599-503e-9a73-5e7c6c082085")
+		)
+		(pin "35"
+			(uuid "1f14714d-d756-5400-87f1-ea835f854cc3")
+		)
+		(pin "1"
+			(uuid "5b596d1c-5e80-5142-bbf2-0bb602c781c9")
+		)
+		(pin "2"
+			(uuid "6456c283-e4bf-5f2d-9c41-3d8c1979833e")
+		)
+		(pin "3"
+			(uuid "51c1ea97-83ce-5508-a893-f0e78da6308e")
+		)
+		(pin "4"
+			(uuid "98bf29f2-9c5f-57e2-8bde-c85e34ca280d")
+		)
+		(pin "5"
+			(uuid "b92f5e46-e2b1-598f-b2f2-ef4d8d18146d")
+		)
+		(pin "6"
+			(uuid "0dba60f6-4c8e-5ad0-bd3e-c31ae7401182")
+		)
+		(pin "7"
+			(uuid "5adea405-a17a-5cd9-bdfe-a498b50491f5")
+		)
+		(pin "8"
+			(uuid "4ddfd042-3a79-5dd4-93e1-7ae629fd72ce")
+		)
+		(pin "19"
+			(uuid "16ec5ac7-9a1f-5e9e-aa8c-91134e1a2879")
+		)
+		(pin "20"
+			(uuid "9bff58ff-0307-5276-8e9d-f8b69dccd466")
+		)
+		(pin "21"
+			(uuid "81b2602f-b0c3-5094-80a6-7a91a922a2ab")
+		)
+		(pin "9"
+			(uuid "6688b538-87c1-53c2-a52f-49765cc6c98a")
+		)
+		(pin "24"
+			(uuid "c23cfa01-1836-5ff5-b500-6ea71a97ad81")
+		)
+		(pin "25"
+			(uuid "f7f4ea69-3ca9-597c-a522-1258de2bc7fb")
+		)
+		(pin "10"
+			(uuid "f35f6467-9a35-518f-aedc-6f0f15b43281")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_BLDC")
+		(at 381 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "266fa790-5175-5dc7-8941-67b51f867925")
+		(property "Reference" "M2"
+			(at 388.62 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMAX ECO III 2807 1300KV"
+			(at 388.62 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0676f22-0ed6-5833-aaa2-1091003d0f57")
+		)
+		(pin "2"
+			(uuid "6d43973e-ef9d-5c5b-8587-86544bd59778")
+		)
+		(pin "3"
+			(uuid "55667f2c-dd29-5e84-92d3-9e80bbe4fd3a")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 356.87 261.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29f9ba91-1d07-5212-b4d2-269355397b01")
+		(property "Reference" "#PWR14"
+			(at 356.87 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 360.68 261.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98aabd0a-b11c-5be3-93db-259fd0d2e875")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_BLDC")
+		(at 381 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3685013d-c119-5393-acfc-4300dfe4d9af")
+		(property "Reference" "M1"
+			(at 388.62 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMAX ECO III 2807 1300KV"
+			(at 388.62 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58b53bbc-20ff-5a2b-b5b3-d949a2e2da45")
+		)
+		(pin "2"
+			(uuid "185baaf1-551c-59fd-b7f8-3892d677d96c")
+		)
+		(pin "3"
+			(uuid "487ce5c4-7128-576a-a254-ec7d71088b2c")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 210.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46213cc1-7e88-52af-ac32-671ca4462f2f")
+		(property "Reference" "#PWR08"
+			(at 58.42 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5523f1f-b4dd-5ee7-908f-33e81eb60dde")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Fuse")
+		(at 71.12 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "478e9276-1680-5bb9-8505-13145811b9dd")
+		(property "Reference" "F1"
+			(at 71.12 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A blade (servo branch)"
+			(at 71.12 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57f4aab3-1729-53ea-ab8e-7c6a865af8b8")
+		)
+		(pin "2"
+			(uuid "34d65f8d-36d4-5084-893c-149cd9b1af4e")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:TB6612FNG_Carrier")
+		(at 403.86 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4f1b04bc-572c-5ad4-b49d-1dcad462fc7e")
+		(property "Reference" "U7"
+			(at 403.86 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TB6612FNG  LEFT side"
+			(at 403.86 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "564dea44-b31b-54b7-be58-1ccde966ffdb")
+		)
+		(pin "8"
+			(uuid "16d0ee70-effb-511d-a60b-c92ee2467233")
+		)
+		(pin "10"
+			(uuid "95d83eba-d9dd-5d03-a1b6-92fcfc4067ac")
+		)
+		(pin "11"
+			(uuid "ea75577c-2014-52e5-87e7-7a7e55350dce")
+		)
+		(pin "5"
+			(uuid "466e2c0b-9b1d-54f8-a4c7-87197d55335a")
+		)
+		(pin "2"
+			(uuid "6fcf87f9-b22c-5b0a-b68d-050aefdb58ca")
+		)
+		(pin "6"
+			(uuid "88f6568f-d33f-5c76-9bcb-fb22e9c662d3")
+		)
+		(pin "9"
+			(uuid "e47f64ea-6cd1-55f0-9d17-e15d62316d20")
+		)
+		(pin "1"
+			(uuid "ae3f9494-dc95-554c-a6b3-becad508bf51")
+		)
+		(pin "12"
+			(uuid "f1ceef64-7df5-5a8a-85bc-b4da177e0b85")
+		)
+		(pin "13"
+			(uuid "6dcec2e7-9c4b-548a-b2ff-c4fd4c4c19db")
+		)
+		(pin "14"
+			(uuid "0386cfad-64a1-5681-9525-84229e32f024")
+		)
+		(pin "15"
+			(uuid "d8969cba-b0d0-52ca-92e1-0ff5c1fbfe29")
+		)
+		(pin "3"
+			(uuid "971a0026-1ab0-5c3a-8c76-c91b089cfb1f")
+		)
+		(pin "4"
+			(uuid "b47627d7-913e-5f44-ba20-eb765fdf8fa9")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Buck_12V")
+		(at 528.32 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "555c6b80-2548-5bad-97e9-87b3a5bc5a3c")
+		(property "Reference" "U3"
+			(at 528.32 214.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12V 4A+ step-down"
+			(at 528.32 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 528.32 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 528.32 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 528.32 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "14e20d7b-62fb-5efb-a6c6-baa2b71df6c8")
+		)
+		(pin "5"
+			(uuid "67befd1d-6b39-5490-b0c3-c4dd5437b6ad")
+		)
+		(pin "1"
+			(uuid "a001789e-b884-58dd-83b5-d1856ea807fb")
+		)
+		(pin "3"
+			(uuid "49c96114-6c15-53aa-b083-94a96a9b026a")
+		)
+		(pin "2"
+			(uuid "afed237a-06f3-5532-8ab2-f2a7c4254a78")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Fuse_V")
+		(at 548.64 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "578b0cef-2af1-5ee0-851a-60218b1b128f")
+		(property "Reference" "F2"
+			(at 550.672 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5A (drive branch)"
+			(at 550.672 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 548.64 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 548.64 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 548.64 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af0e77af-07c1-5760-84e2-bdb871669894")
+		)
+		(pin "2"
+			(uuid "cda6da90-e5bf-5976-b18a-aee62cc4911d")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:C_Polarized")
+		(at 297.18 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59c884b0-ad1a-5dd3-ba80-16cc2f1a9998")
+		(property "Reference" "C1"
+			(at 300.228 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF 35V low-ESR"
+			(at 300.228 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cc71fcd-8fbd-55e1-b9f1-53afc3ed22ea")
+		)
+		(pin "2"
+			(uuid "b4cf3e9f-15e2-5317-907c-39ef36d5d13d")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_DC_Gear")
+		(at 436.88 285.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a43c14c-8120-5c09-b3aa-9252388b6af2")
+		(property "Reference" "M8"
+			(at 441.96 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu HPCB 12V 100:1  RR"
+			(at 441.96 287.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 285.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 285.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51968dbc-08dd-5956-a445-115f50b2e4af")
+		)
+		(pin "2"
+			(uuid "06484808-303c-5cc1-a060-d0d07c0b84c2")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 81.28 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fab3f08-d5f7-5f6e-9fd8-f527c9fe5af6")
+		(property "Reference" "#FLG01"
+			(at 81.28 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 78.08 72.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0aabab98-f601-5215-8c39-f87a3b442dd4")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_DC_Gear")
+		(at 436.88 275.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62bfc88d-c752-579b-ba68-5962e585b92e")
+		(property "Reference" "M7"
+			(at 441.96 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu HPCB 12V 100:1  FR"
+			(at 441.96 276.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 275.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 275.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "faef191d-56da-58f9-bf6e-28c2bd1124bf")
+		)
+		(pin "2"
+			(uuid "603be220-2d8a-5b02-8d9a-ea45ff0ea39e")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:ESC_4in1")
+		(at 330.2 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6eb32451-5fe7-5132-9f3b-fc55ac79281b")
+		(property "Reference" "U5"
+			(at 325.12 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4-in-1 ESC 6S 45A+ 30.5mm"
+			(at 325.12 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e035216c-c6e5-5846-82df-0c3b75ecf48a")
+		)
+		(pin "4"
+			(uuid "3f912d51-660a-53fe-a338-11076a40673c")
+		)
+		(pin "5"
+			(uuid "f15244bb-9eec-5b8d-b2fb-c735e8cca5f1")
+		)
+		(pin "6"
+			(uuid "730640ed-8233-5f17-8128-d1c829e3c93d")
+		)
+		(pin "7"
+			(uuid "6e90d5df-e46f-5eb0-88a2-28418928583c")
+		)
+		(pin "8"
+			(uuid "7feab6ca-0095-59a6-8fd0-4001440ad929")
+		)
+		(pin "9"
+			(uuid "5f468483-e9c5-531f-be39-6054f9bff40d")
+		)
+		(pin "10"
+			(uuid "ce7423fe-b965-558b-86bf-9a1bb05b992d")
+		)
+		(pin "11"
+			(uuid "caf3f5d9-cfef-53de-b7a5-de4b3695c398")
+		)
+		(pin "12"
+			(uuid "6e8554e1-7f82-5f52-adee-4cf11bfd6fb7")
+		)
+		(pin "13"
+			(uuid "7b1b4e28-b1ce-500e-91bb-697f42970ffa")
+		)
+		(pin "14"
+			(uuid "1c2b22e2-dfba-5462-8098-c7b4cc368d45")
+		)
+		(pin "15"
+			(uuid "04f032dd-0396-569b-a1ad-60b1c3bc5b67")
+		)
+		(pin "16"
+			(uuid "9e6ad355-99a1-58e8-b1d2-7f806b088523")
+		)
+		(pin "17"
+			(uuid "cc63f0d0-6181-5b9e-8fd6-78875e3df875")
+		)
+		(pin "18"
+			(uuid "a1db5b7a-d676-51bf-9d60-0876a511aa26")
+		)
+		(pin "19"
+			(uuid "5158d1e2-7786-51d9-896a-9a26b085cb1b")
+		)
+		(pin "20"
+			(uuid "1dac520d-196a-55ea-b251-8e4e52786931")
+		)
+		(pin "21"
+			(uuid "831d025b-5358-5a57-b948-5793afb23535")
+		)
+		(pin "22"
+			(uuid "4a3ee69f-c3ae-5fa0-9b88-bfff646871d0")
+		)
+		(pin "1"
+			(uuid "9aed444c-715d-5480-9bec-bc4e40d59ed2")
+		)
+		(pin "2"
+			(uuid "abff1cef-c5a9-5632-a61c-2b450902886f")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:C_Polarized")
+		(at 111.76 264.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "70538759-ef56-57ee-97e4-65ed8a54979a")
+		(property "Reference" "C2"
+			(at 114.808 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF 16V"
+			(at 114.808 265.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa01265f-974e-5ea9-be18-fddaa3bf35f1")
+		)
+		(pin "2"
+			(uuid "ef76f54d-d0d7-5df9-9ef1-71293bb10cf2")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 267.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "734e4404-b6d0-5c65-a37d-35b49ce32b5f")
+		(property "Reference" "#PWR10"
+			(at 111.76 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62b0c89a-35d3-5f14-a069-16a9d94cb133")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d92399d-75c3-5565-bed7-76d985cfdb22")
+		(property "Reference" "#PWR07"
+			(at 58.42 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bec692d7-80db-5c8f-a7d1-08d202214854")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81b08eee-b485-5d5d-931c-3b9adb01685d")
+		(property "Reference" "#PWR05"
+			(at 106.68 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36591286-19d4-5cce-9ae3-518d073b20d1")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82837fc5-5cd7-554a-8cd0-58a0878f3b51")
+		(property "Reference" "#PWR06"
+			(at 58.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abe79ebc-3dc7-55e6-b52f-cdee64e5b63c")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Battery_6S2P")
+		(at 30.48 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8762e099-4b88-5397-a6d3-e57fe33c8305")
+		(property "Reference" "BT1"
+			(at 34.29 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6S2P Molicel P42A"
+			(at 34.29 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a2dbe34-a917-5c91-9709-94ee72ccce32")
+		)
+		(pin "2"
+			(uuid "b82d6837-ab2b-54bd-a16c-fce4b4e9f65a")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ac28d5e-69ea-50bc-8e8a-0826f393ffce")
+		(property "Reference" "#PWR01"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea2178f9-8435-56d6-94d6-c2c32fb6e91a")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:TB6612FNG_Carrier")
+		(at 403.86 280.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d01f1a3-e461-512e-8dc1-4bfcecf9750e")
+		(property "Reference" "U8"
+			(at 403.86 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TB6612FNG  RIGHT side"
+			(at 403.86 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 403.86 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.86 280.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 403.86 280.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e6950290-fce3-50dc-b9f0-54f9bf2143af")
+		)
+		(pin "8"
+			(uuid "cb543e4f-2c84-5892-8fe3-2f96d5a95824")
+		)
+		(pin "10"
+			(uuid "16b11ab0-15c4-5880-9cc5-123c115a66d3")
+		)
+		(pin "11"
+			(uuid "2056fa92-b657-5995-b6d3-d4dd517d28a6")
+		)
+		(pin "5"
+			(uuid "b005c467-8852-5fa6-b23a-61da871fb2fa")
+		)
+		(pin "2"
+			(uuid "e931ff30-8b5d-5310-80b5-4a1516b88786")
+		)
+		(pin "6"
+			(uuid "879e7aee-dbec-5ff9-a0b9-9d61dced5714")
+		)
+		(pin "9"
+			(uuid "bfdb3905-6707-528f-b1d2-21f9c917dc05")
+		)
+		(pin "1"
+			(uuid "5cbd8a6f-f1d1-5adb-8791-65c11b74a9d9")
+		)
+		(pin "12"
+			(uuid "53111a9a-3a25-5767-8976-d1c0b2f259ad")
+		)
+		(pin "13"
+			(uuid "38e8b8fa-5348-578f-b3b6-bb8cf238826e")
+		)
+		(pin "14"
+			(uuid "12771a4c-bdfb-5e98-93b7-6fe9bed14551")
+		)
+		(pin "15"
+			(uuid "1268bca3-f62e-5cbc-8b0d-c6a6a9c86f0a")
+		)
+		(pin "3"
+			(uuid "1b38b09d-429c-5358-8979-88a59425f292")
+		)
+		(pin "4"
+			(uuid "64a50f87-8cfd-5dae-9dba-41711561de5e")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 518.16 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "95d6379c-2334-5147-9f47-63f4dc97ef97")
+		(property "Reference" "#PWR18"
+			(at 518.16 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 518.16 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 518.16 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 518.16 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 518.16 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee5d9c98-3372-536a-816d-fb010aded725")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_BLDC")
+		(at 381 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a902811-af04-54c2-a5fd-6cefb530c702")
+		(property "Reference" "M4"
+			(at 388.62 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EMAX ECO III 2807 1300KV"
+			(at 388.62 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 381 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49339e2c-9c14-581f-996e-f5d0150828f4")
+		)
+		(pin "2"
+			(uuid "75d61590-50a4-5cec-9de0-3d5f40fe498c")
+		)
+		(pin "3"
+			(uuid "e18764d3-3b6b-5c39-9349-bd770ee805df")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:C_Polarized")
+		(at 505.46 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cb048fa-8485-58d8-ad2f-086991ad4914")
+		(property "Reference" "C3"
+			(at 508.508 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF 25V"
+			(at 508.508 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 505.46 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 505.46 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a28e168f-f1b8-5c60-8af9-36185cbbc56b")
+		)
+		(pin "2"
+			(uuid "6518cf20-2e28-5732-b4e8-e313cc64093f")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 328.93 261.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9df440e7-ef6e-514c-b806-b1f1a0a9803e")
+		(property "Reference" "#PWR13"
+			(at 328.93 267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 323.33 261.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 261.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a969fde9-73e6-5609-9f2f-ebb5385f9f36")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 414.02 294.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a22ffe8f-1331-5824-8e04-6044734ce91d")
+		(property "Reference" "#PWR16"
+			(at 414.02 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 298.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 414.02 294.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55e5d1d7-993f-5cb5-8d00-09d8e7bc164a")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a462cc9e-784a-5253-be8a-b132fc1720d3")
+		(property "Reference" "#PWR12"
+			(at 212.09 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee75c4c8-2f23-5960-9036-87759e40af2c")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 414.02 248.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af71347e-0ed5-570b-9bcf-8529fe2759e2")
+		(property "Reference" "#PWR15"
+			(at 414.02 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 414.02 252.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 414.02 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.02 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 414.02 248.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71599482-389a-5168-95c2-5d754f0c003f")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Servo")
+		(at 50.8 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2476b31-74ed-50aa-ad28-ba8d98f47537")
+		(property "Reference" "SV2"
+			(at 43.18 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DS3235SG  RL"
+			(at 43.18 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f2247ad-b3da-5484-9744-7e2098c6ef88")
+		)
+		(pin "2"
+			(uuid "53bae099-e71c-5956-a565-5da280fb0315")
+		)
+		(pin "3"
+			(uuid "ba0cf018-e42c-5bbe-aade-dc7c2b412759")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "SV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:UBEC_Servo")
+		(at 96.52 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b909c2cb-55f0-5235-bd88-bccf49705a52")
+		(property "Reference" "U2"
+			(at 96.52 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UBEC 7.4V 10A+"
+			(at 96.52 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "776ad751-4a14-5130-ac49-ca0d4b1bc4b5")
+		)
+		(pin "2"
+			(uuid "1d5b096d-21ae-5900-aeaa-3d7023eae8a3")
+		)
+		(pin "3"
+			(uuid "3713da64-2f98-5a16-bf8c-0a76bcc38495")
+		)
+		(pin "4"
+			(uuid "69c86c9b-dd79-544d-a443-3f240ca39eba")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 538.48 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "beb1f0f5-cef8-516f-86ee-83b5c5c11903")
+		(property "Reference" "#PWR17"
+			(at 538.48 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 538.48 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 538.48 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 538.48 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 538.48 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e6d59db-7e54-59a1-84bd-6fff8ca4053e")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce912716-1e61-5601-ba65-9e0e89f71c87")
+		(property "Reference" "#PWR03"
+			(at 322.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1558ad7-7b0e-5581-954c-721ba002ca0e")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_DC_Gear")
+		(at 436.88 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d46ebdd7-210b-5049-8a09-5b77087bc6fa")
+		(property "Reference" "M6"
+			(at 441.96 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu HPCB 12V 100:1  RL"
+			(at 441.96 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c250250-4ddd-5649-ab5f-0ce6714c1d9c")
+		)
+		(pin "2"
+			(uuid "9f252a92-ef6c-5706-b5ca-a32c7e964e00")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 297.18 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db07d38a-d36a-5eb5-833a-40eca51d7b20")
+		(property "Reference" "#PWR02"
+			(at 297.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 297.18 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 297.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 297.18 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "618cba04-9adc-5574-a8d9-3fe3026906fa")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Servo")
+		(at 50.8 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dee968fc-4e0e-529d-9338-dbf48d5d48ed")
+		(property "Reference" "SV4"
+			(at 43.18 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DS3235SG  RR"
+			(at 43.18 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dabf637e-4440-5245-892c-44dde770c765")
+		)
+		(pin "2"
+			(uuid "444d2fee-b55b-5e84-b7ec-45a7d9869bb8")
+		)
+		(pin "3"
+			(uuid "3eab5752-1a72-5f59-bb3c-1152156dbb6f")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "SV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Motor_DC_Gear")
+		(at 436.88 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "defeda3f-1389-5e4b-b945-d923dbf1c299")
+		(property "Reference" "M5"
+			(at 441.96 228.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pololu HPCB 12V 100:1  FL"
+			(at 441.96 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 436.88 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 436.88 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 436.88 229.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23a26f4a-95da-5dee-8a1b-4131e8cdb9cc")
+		)
+		(pin "2"
+			(uuid "5c05c358-31e0-5ac6-9efb-9cd2b99abd58")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "M5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 505.46 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4259733-3623-5c04-b0f1-2ea2a2498c08")
+		(property "Reference" "#PWR19"
+			(at 505.46 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 505.46 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 505.46 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 505.46 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 505.46 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd2fb8ff-d38f-5f69-ad32-0c3822d26e74")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9affe53-52f7-5ea2-8809-f99f32c77767")
+		(property "Reference" "#PWR11"
+			(at 220.98 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c13025-ffef-5d82-b5ff-312a38be7a68")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aeros:Servo")
+		(at 50.8 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb331294-4e5b-59a0-ab47-90ec11e07fdd")
+		(property "Reference" "SV3"
+			(at 43.18 207.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DS3235SG  FL"
+			(at 43.18 209.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc0c7019-63c3-5fcd-90c3-76e3e440cad5")
+		)
+		(pin "2"
+			(uuid "066d5c52-d575-5189-b495-a89e8e52e85a")
+		)
+		(pin "3"
+			(uuid "20cc7a26-23db-5ec6-9bb9-116e088263f6")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "SV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f25bbe50-1c47-5644-be58-0b77852ccf56")
+		(property "Reference" "#PWR04"
+			(at 86.36 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d8bf94d-963b-5046-974a-fbe3eca46645")
+		)
+		(instances
+			(project "Aeros_Electronics"
+				(path "/ad761f4d-2ce6-596f-92d5-3015702376a5"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
